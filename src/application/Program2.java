@@ -36,11 +36,11 @@ public class Program2 {
 		departmentDao.insert(newDepartment);
 		System.out.println("New Department " + newDepartment.getName() + " Inserted with ID = " + newDepartment.getId());
 //		
-//		System.out.println("\n**** TEST 5: department update ****");
-//		department = departmentDao.findById(3);
-//		department.setName("Byron Blue");
-//		departmentDao.update(department);
-//		System.out.println("Update successful");
+		System.out.println("\n**** TEST 5: department update ****");
+		department = departmentDao.findById(3);
+		department.setName("Tools");
+		departmentDao.update(department);
+		System.out.println("Update successful");
 //		
 //		System.out.println("\n**** TEST 6: department deleteById ****");
 //		System.out.print("Enter ID to delete: ");
