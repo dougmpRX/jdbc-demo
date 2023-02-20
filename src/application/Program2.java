@@ -31,10 +31,10 @@ public class Program2 {
 			System.out.println(obj);
 		}
 		
-//		System.out.println("\n**** TEST 4: department insert ****");
-//		Department newDepartment = new Department(null, "John White", "john@gmail.com", new Date(), 4500.0, department);
-//		departmentDao.insert(newDepartment);
-//		System.out.println("New Department Inserted with ID = " + newDepartment.getId());
+		System.out.println("\n**** TEST 4: department insert ****");
+		Department newDepartment = new Department("Games");
+		departmentDao.insert(newDepartment);
+		System.out.println("New Department " + newDepartment.getName() + " Inserted with ID = " + newDepartment.getId());
 //		
 //		System.out.println("\n**** TEST 5: department update ****");
 //		department = departmentDao.findById(3);
